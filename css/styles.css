@@ -211,6 +211,18 @@ ol {
   margin: -1px;
 }
 
+.advantages-list {
+  display: flex;
+}
+
+.advantages-item {
+  max-width: 270px;
+}
+
+.advantages-list .advantages-item + .advantages-item {
+  margin-left: 30px;
+}
+
 .advantages-item-title {
   font-size: 14px;
   line-height: 1.14;
@@ -236,6 +248,10 @@ ol {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.activity-list {
+  display: flex;
 }
 
 /* -----------------Team----------------------- */
