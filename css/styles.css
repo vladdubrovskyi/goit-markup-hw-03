@@ -30,6 +30,12 @@ ol {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -46,12 +52,6 @@ ol {
 
 .list {
   list-style-type: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /*--------------------------Header--------------------------------------- */
