@@ -147,12 +147,9 @@ img {
 /* -------------------Hero--------------------- */
 .hero {
   background-color: var(--secondary-background-color);
-
-  text-align: center;
-}
-.hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -200,7 +197,6 @@ img {
 /* ------------------Advantages---------------------- */
 .advantages {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -233,6 +229,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .advantages-item-text {
@@ -293,13 +290,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
-
 .team-content {
-  padding-left: 60px;
-  padding-right: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -319,7 +310,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-content-color);
-  margin-bottom: 30px;
 }
 
 /* -------------------------Portfolio------------------------ */
@@ -397,7 +387,6 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-content-color);
-  margin-bottom: 20px;
 }
 
 /* -----------------Footer----------------------- */
@@ -428,6 +417,11 @@ img {
 .address .link:focus {
   color: var(--accent-color);
 }
+
+.address-content:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address .address-item {
   font-style: normal;
   font-size: 14px;
